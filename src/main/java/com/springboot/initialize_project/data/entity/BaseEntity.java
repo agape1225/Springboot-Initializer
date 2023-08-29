@@ -12,7 +12,6 @@ import javax.persistence.EntityListeners;
 import javax.persistence.MappedSuperclass;
 import java.time.LocalDateTime;
 
-// 예제 8.42
 @Getter
 @Setter
 @ToString
@@ -26,5 +25,4 @@ public class BaseEntity {
 
     @LastModifiedDate
     private LocalDateTime updatedAt;
-
 }
